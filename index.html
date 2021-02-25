@@ -1,0 +1,64 @@
+<!DOCTYPE <html>
+  <!--Unicode Transformation Format--> <meta charset="UTF-8">
+
+  <!--Intitalizing Head Section-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator-Anirudh Gosain</title>
+  <!--Linking CSS file-->  <link rel="stylesheet" href="style.css">  
+</head>
+
+<body>
+    <main id="value">
+        <h1><u><i>Tip Calculator</i></u></h1>
+        <!--Initalizing Main Section-->
+        <section>
+            <div class="bill">
+                <label for="Enter Bill Amount">Bill Amount</label>
+                <input type="number" min="0" placeholder="Enter Bill Amount" style="text-align: center" required="required" id="myBill" />
+            </div>
+            <div>
+                <div class="space-between">
+                    <label for="">Select Tip%</label>
+                    <span id="tipPercent"></span>
+                </div>
+                <input type="range" value="0" id="tipEnter" class="range">
+            </div>
+            <div class="space-between">
+                <span>Tip Amount</span>
+                <span id="tipValue"></span>
+            </div>
+            <hr>
+            <div class="space-between total">
+                <span>Total Amount (Bill+Tip)</span>
+                <span id="totalWithTip"></span>
+                
+            </div>
+            <hr>
+        </section>
+        <!--Initalizing Tip Section-->
+        <section>
+            <div>
+                <div class="space-between">
+                    <label for="splitInput">Number of People</label>
+                    <span id="splitValue"></span>
+                </div>
+                <input type="range" min="1" max="20" value="1" id="splitInput" class="range" />
+            </div>
+            <hr>
+            <div class="space-between">
+                <span STYLE="font-weight:bold"> Tip Per Person</span>
+                <span STYLE="font-weight:bold" id="tipEach"></span>
+            </div>
+           <div class="space-between">
+                    <span STYLE="font-weight:bold">Bill Per Person</span>
+                    <span STYLE="font-weight:bold" id="billEach"></span>
+            </div>
+            <hr>
+            
+        </section>
+    </main>
+<!--Connecting Java Script-->
+    <script type="text/javascript" src="code.js"></script>   
+</body>
+</html>
