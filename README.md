@@ -1,6 +1,13 @@
 # Tip-Calculator-project-Anirudh-Gosain
 
 This project includes tip calculator created using java script
+This project has three files namely:
+
+1.index.html
+2.style.css
+3.code.js
+
+All the three files have appropriate and required comments in each section of the code or whenever necessary.
 
 This tip calculator calculate maximum amount value till 40 digits and till 3 decimal places.
 
